@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo creating directory for WAR file.....................
+
+./sbt create-directory
+
+echo .................theBase warfile CREATED

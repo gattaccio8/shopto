@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request>
+	<Created>2011-06-07 16:50:01</Created>
+	<ApiVersion>0.1</ApiVersion>
+	<Identify>
+		<UserID>1</UserID>
+		<Name>Sandbox</Name>
+		<Password>3a53a6e8aa4c64a824c36f8d0cc3a604</Password>
+	</Identify>
+	<Call>
+		<Object>PRODUCTS</Object>
+		<Method>getAll</Method>
+		<Params>
+			<Limit>50</Limit>
+		</Params>
+	</Call>
+</Request>

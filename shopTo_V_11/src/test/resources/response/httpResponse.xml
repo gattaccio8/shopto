@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESPONSE>
+    <STATUS>OK</STATUS>
+    <CODE>0</CODE>
+    <RETURN>
+        <PRODUCTS>
+            <PRODUCTS>
+                <BARCODE>5016488121378</BARCODE>
+                <CODART>PC1001</CODART>
+                <NAME>10,000 Games</NAME>
+                <PUBLISHER>AVANQUEST</PUBLISHER>
+                <PLATFORM>PC</PLATFORM>
+                <GENRE>PUZZLE</GENRE>
+                <REALEASE-DATE>1327622400</REALEASE-DATE>
+                <STOCK>5</STOCK>
+                <PRICE-CURRENCY>GBP</PRICE-CURRENCY>
+                <PRICE-AMOUNT>14.64</PRICE-AMOUNT>
+                <BOXART>http://media2.shopto.net/boxart/PC1001.jpg</BOXART>
+            </PRODUCTS>
+            <PRODUCTS>
+                <BARCODE>5016488113038</BARCODE>
+                <CODART>PC1000</CODART>
+                <NAME>1000 Games</NAME>
+                <PUBLISHER>AVANQUEST</PUBLISHER>
+                <PLATFORM>PC</PLATFORM>
+                <GENRE>PUZZLE</GENRE>
+                <REALEASE-DATE>1327622400</REALEASE-DATE>
+                <STOCK>5</STOCK>
+                <PRICE-CURRENCY>GBP</PRICE-CURRENCY>
+                <PRICE-AMOUNT>9.63</PRICE-AMOUNT>
+                <BOXART>http://media2.shopto.net/boxart/PC1000.jpg</BOXART>
+            </PRODUCTS>
+            <PRODUCTS>
+                <BARCODE>5022153101088</BARCODE>
+                <CODART>HFR0108</CODART>
+                <NAME>13 Hours</NAME>
+                <PUBLISHER>HIGH FLIERS</PUBLISHER>
+                <PLATFORM>DVD</PLATFORM>
+                <GENRE>HORROR</GENRE>
+                <REALEASE-DATE>1287961200</REALEASE-DATE>
+                <STOCK>5</STOCK>
+                <PRICE-CURRENCY>GBP</PRICE-CURRENCY>
+                <PRICE-AMOUNT>12.12</PRICE-AMOUNT>
+                <BOXART>http://media2.shopto.net/boxart/HFR0108.jpg</BOXART>
+            </PRODUCTS>
+            <PRODUCTS>
+                <BARCODE>4017244024095</BARCODE>
+                <CODART>PC15DA</CODART>
+                <NAME>15 Days</NAME>
+                <PUBLISHER>MAMBA GAMES</PUBLISHER>
+                <PLATFORM>PC</PLATFORM>
+                <GENRE>ACTION</GENRE>
+                <REALEASE-DATE>2524608000</REALEASE-DATE>
+                <STOCK>25</STOCK>
+                <PRICE-CURRENCY>GBP</PRICE-CURRENCY>
+                <PRICE-AMOUNT>47.13</PRICE-AMOUNT>
+                <BOXART>http://media2.shopto.net/boxart/PC15DA.jpg</BOXART>
+            </PRODUCTS>
+            <PRODUCTS>
+                <BARCODE/>
+                <CODART>SHOPTO4</CODART>
+                <NAME>1st Class</NAME>
+                <PUBLISHER/>
+                <PLATFORM>N/A</PLATFORM>
+                <GENRE/>
+                <REALEASE-DATE>-62135596800</REALEASE-DATE>
+                <STOCK>5</STOCK>
+                <PRICE-CURRENCY>GBP</PRICE-CURRENCY>
+                <PRICE-AMOUNT>0.00</PRICE-AMOUNT>
+                <BOXART>http://media2.shopto.net/boxart/SHOPTO4.jpg</BOXART>
+            </PRODUCTS>
+        </PRODUCTS>
+    </RETURN>
+</RESPONSE>

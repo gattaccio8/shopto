@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/test/resources/request,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/test-classes/request)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/test/resources/response,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/test-classes/response)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/test/resources/request/getAll.xml,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/test-classes/request/getAll.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/test/resources/response/httpResponse.xml,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/test-classes/response/httpResponse.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/test/resources/response/response.xml,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/test-classes/response/response.xml)[0m

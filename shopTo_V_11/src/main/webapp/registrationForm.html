@@ -1,0 +1,69 @@
+<lift:surround with="default" at="content">
+   <lift:bind-at name="title">Registration Form</lift:bind-at>
+    <form class="lift:form.ajax">
+        <div class="lift:RegistrationForm">
+         <table>
+             <tr>
+                <td><label class="text_label">Forenames *</label></td>
+                <td><input id="forenames" type="text"><person:name /></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">Surname *</label></td>
+                <td><input id="surname" type="text"></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">email *</label></td>
+                <td><input id="email" type="text"></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">password * (min 4 chars)</label></td>
+                <td><input id="password" type="text"></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">re-type password * (min 4 char)</label></td>
+                <td><input id="re-password" type="text"></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">security question *</label></td>
+                <td><input id="securityquestion" type="text"></td>
+             </tr>
+             <tr>
+                <td><h2>Credit card address</h2></td>
+             </tr>
+            <tr>
+                <td><label class="text_label">address line 1 *</label></td>
+                <td><input id="addressline1" type="text"></td>
+             </tr>
+           <!--  <tr>
+                <td><label class="text_label">address line 2 *</label></td>
+                <td><input id="addressline2" type="text"></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">City/Town *</label></td>
+                <td><input id="city-town" type="text"></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">County *</label></td>
+                <td><input id="county" type="text"></td>
+             </tr>     -->
+             <tr>
+                <td><label class="text_label">Post code *</label></td>
+                <td><input id="postcode" type="text"></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">Country *</label></td>
+                <td><input id="country" type="text"></td>
+             </tr>
+             <tr>
+                <td><label class="text_label">how did you hear about us</label></td>
+                <td><input id="hearaboutus" type="text"></td>
+             </tr>
+            <tr>
+                <td><input type="submit" id="submit" /></td>
+            </tr>
+         </table>
+        </div>
+    </form>
+</lift:surround>
+
+

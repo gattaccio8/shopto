@@ -1,0 +1,45 @@
+<lift:surround with="default" at="content">
+     <table align ="center" cellpadding="1" width="950" border="1">
+            <thead>
+                <tr>
+                    <th colspan="3"><h1>H1 header</h1></th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+					<td colspan="3">
+					<p>just a paragraph</p></td>
+	        	</tr>
+                <tr>
+                    <td  id="links">
+                        <p>just some contents</p>
+                    </td>
+
+                    <td id="display">
+
+                    <lift:comet type="DisplayProducts">
+                        <table>
+                            <tr class="products">
+                                <td class="td1">unknown</td>
+                                <td class="td2">unknown</td>
+                                <td class="td3">unknown</td>
+                                <!--<td class="td4">unknown</td>-->
+                                <!--<td class="td5">unknown</td>-->
+                                <!--<td class="td6">unknown</td>-->
+                            </tr>
+                        </table>
+                    </lift:comet>
+                    </td>
+
+                    <td id="forms">
+                        <div>
+                            <form class="lift:OnSubmit?form=post">
+                                <input type="submit" value="SignUp" />
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</lift:surround>
+

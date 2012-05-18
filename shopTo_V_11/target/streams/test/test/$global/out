@@ -1,0 +1,10 @@
+[0m[[0mdebug[0m] [0mRunning Test model.MappedObjectSpec : subclass(false, org.specs2.specification.SpecificationStructure) with arguments [0m
+[0m[[0mdebug[0m] [0mRunning Test snippet.EqualSpec : subclass(false, org.specs2.specification.SpecificationStructure) with arguments [0m
+[0m[[0mdebug[0m] [0mRunning Test snippet.DisplayProductsSpec : subclass(false, org.specs2.specification.SpecificationStructure) with arguments [0m
+[0m[[0mdebug[0m] [0mRunning Test code.xmlmessages.XmlMessageUtilSpec : subclass(false, org.specs2.specification.SpecificationStructure) with arguments [0m
+[0m[[0minfo[0m] [0mPassed: : Total 8, Failed 0, Errors 0, Passed 8, Skipped 0[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	snippet.DisplayProductsSpec[0m
+[0m[[0mdebug[0m] [0m	code.xmlmessages.XmlMessageUtilSpec[0m
+[0m[[0mdebug[0m] [0m	model.MappedObjectSpec[0m
+[0m[[0mdebug[0m] [0m	snippet.EqualSpec[0m

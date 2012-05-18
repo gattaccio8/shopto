@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/main/resources/props,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/classes/props)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/main/resources/props/default.props,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/classes/props/default.props)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/main/resources/props/production.default.props,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/classes/props/production.default.props)[0m
+[0m[[0mdebug[0m] [0m	(/Users/fabio/Documents/dev/projects/shopTo_V_11/src/main/resources/props/test.default.props,/Users/fabio/Documents/dev/projects/shopTo_V_11/target/scala-2.9.1/classes/props/test.default.props)[0m

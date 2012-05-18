@@ -1,0 +1,20 @@
+.images {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+}
+
+#links {
+    width: 15%;
+    vertical-align: top;
+}
+
+#forms {
+    width: 15%;
+    vertical-align: top;
+}
+
+#display {
+    width: 70%;
+}
+

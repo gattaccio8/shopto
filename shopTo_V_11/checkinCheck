@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo cleaning up.....................
+
+./sbt really-clean test
+
+echo .................all tested

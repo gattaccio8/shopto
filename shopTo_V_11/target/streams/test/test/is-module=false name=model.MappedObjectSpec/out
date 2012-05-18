@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[37mMappedObject object should[0m[0m
+[0m[[0minfo[0m] [0m[32m+[0m connect to the h2 DB[0m
+[0m[[0minfo[0m] [0m[32m+[0m create a table 'client'[0m
+[0m[[0minfo[0m] [0m[32m+[0m populate the 'client' DB table[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mTotal for specification MappedObjectSpec[0m
+[0m[[0minfo[0m] [0m[34mFinished in 17 seconds, 188 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m3 examples, 0 failure, 0 error[0m[0m

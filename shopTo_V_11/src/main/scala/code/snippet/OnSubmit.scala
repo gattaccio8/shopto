@@ -12,6 +12,5 @@ object OnSubmit {
         S.redirectTo("/registrationForm.html")
     }
     "type=submit" #> SHtml.onSubmitUnit(process)
-    println("test gitHub")
   }
 }

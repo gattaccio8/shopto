@@ -8,7 +8,7 @@ import net.liftweb.http.{SessionVar, S}
 object RegistrationForm extends SessionVar {
   def render = {
 
-    var forenames = ""
+    var forenames = ""    //testing
     var surname = ""
     var email = ""
     var password = ""

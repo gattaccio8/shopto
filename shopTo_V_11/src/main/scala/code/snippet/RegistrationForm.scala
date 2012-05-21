@@ -26,7 +26,7 @@ object RegistrationForm extends SessionVar {
         Client(forenames, surname, email, password, securityAnswer, address, postCode, country, heardAboutUs).save()
         val clients: List[Client] = Client.findAll
         println("************** " + clients.isEmpty + " " + forenames)
-        S.redirectTo("/index.html")
+        S.redirectTo("/index.html")   //test git
       }
     }
 

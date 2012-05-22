@@ -25,7 +25,6 @@ object RegistrationForm extends SessionVar {
       else {
         Client(forenames, surname, email, password, securityAnswer, address, postCode, country, heardAboutUs).save()
         val clients: List[Client] = Client.findAll
-        println("************** " + clients.isEmpty + " " + forenames)
         S.redirectTo("/index.html")
       }
     }

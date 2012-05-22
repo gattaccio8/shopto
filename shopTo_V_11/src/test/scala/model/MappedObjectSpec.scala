@@ -27,16 +27,17 @@ class MappedObjectSpec extends SpecificationWithJUnit with WebSpecification {
       driver.findElementById("submit").click()
       val start = System.currentTimeMillis()
       var result = false
-      while (!result && System.currentTimeMillis() - start < 5000) {
+      var forename = ""
+      while (!result && forename.equals("") && System.currentTimeMillis() - start < 5000) {
         result = driver.getTitle.equals("App: test Home")
+        forename = Client.forenames
         Thread.sleep(50)
       }
 
 
       val clients: List[Client] = Client.findAll
-      println("*** table name spec: " + Client.dbTableName + " client table length: " + clients.length)
       driver.close()
-      true     //TODO faked to make it pass
+      clients.length must_== 1
     }
   }
 }

@@ -1,6 +1,13 @@
 db.driver=org.h2.Driver
 db.user=test
 db.password=
-db.url=jdbc:h2:mem:lift;DB_CLOSE_DELAY=-1
+db.url=jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
+
+#db.url=jdbc:h2:mem:lift;DB_CLOSE_DELAY=-1
+
+
+
+#:mem (stands for memory)
+#DB_CLOSE_DELAY=-1 (keeps the connection open to don't loose data when the JVM is shut down. Once the process ends the data in-mem is lost!
 
 

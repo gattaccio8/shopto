@@ -23,8 +23,11 @@ object RegistrationForm extends SessionVar {
         //S.error("too short!!")
         S.redirectTo("/")
       else {
+        println("************ " + forenames + " is Client empty: " + Client.findAll().isEmpty + " ***********")
         Client(forenames, surname, email, password, securityAnswer, address, postCode, country, heardAboutUs).save()
+        println("************ " + Client + " is Client empty: " + Client.findAll().isEmpty + " ***********")
         val clients: List[Client] = Client.findAll
+        println("RegForm: " + Client.forenames + " ****************** ")
         S.redirectTo("/index.html")
       }
     }
@@ -39,6 +42,7 @@ object RegistrationForm extends SessionVar {
     "#country" #> text (country, country = _ , "id" -> "country") &
     "#heardAboutUs" #> text (heardAboutUs, heardAboutUs = _ , "id" -> "heardAboutUs") &
     "#submit" #>  ajaxSubmit("Register", () => {
+      println("This is RegForm: ************ " + forenames + " ***********")
       process()
     })
 

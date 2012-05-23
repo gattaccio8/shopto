@@ -20,8 +20,8 @@ class Client extends LongKeyedMapper[Client] with CreatedUpdated with IdPK {
 
 object Client extends Client with LongKeyedMetaMapper[Client] {
 
-  def apply(forenames:String, surname:String, email:String, password:String,
-            securityAnswer:String, address:String, postCode:String, country:String, heardAboutUs:String) = {
+  def apply(forenames: String, surname: String, email: String, password: String,
+            securityAnswer: String, address: String, postCode: String, country: String, heardAboutUs: String) = {
     Client.create.forenames(forenames)
     Client.create.surname(surname)
     Client.create.email(email)

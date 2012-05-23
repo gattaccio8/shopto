@@ -22,15 +22,16 @@ object Client extends Client with LongKeyedMetaMapper[Client] {
 
   def apply(forenames: String, surname: String, email: String, password: String,
             securityAnswer: String, address: String, postCode: String, country: String, heardAboutUs: String) = {
-    Client.create.forenames(forenames)
-    Client.create.surname(surname)
-    Client.create.email(email)
-    Client.create.password(password)
-    Client.create.securityAnswer(securityAnswer)
-    Client.create.address(address)
-    Client.create.postCode(postCode)
-    Client.create.country(country)
-    Client.create.heardAboutUs(heardAboutUs)
+    Client.create
+      .forenames(forenames)
+      .surname(surname)
+      .email(email)
+      .password(password)
+      .securityAnswer(securityAnswer)
+      .address(address)
+      .postCode(postCode)
+      .country(country)
+      .heardAboutUs(heardAboutUs)
   }
   override def dbTableName = "clients"
 }
